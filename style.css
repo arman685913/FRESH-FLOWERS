@@ -158,3 +158,87 @@ nav{
 
 /* <!-- Deals part--> */
 
+.deals{
+    text-align: center;
+    margin-bottom: 120px;
+}
+.deals span {
+    color: #E95A08;
+}
+.deals h1{
+    font-family: Noto Serif;
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+.deals > p {
+    color: rgba(0, 0, 0, 0.5);
+    font-family: Inter;
+    font-size: 22px;
+    font-weight: 400;
+    padding: 0px 125px;
+    margin-bottom: 110px;
+    
+}
+
+.deals-parent{
+    display: flex;
+    gap: 26px;
+}
+.deals-parent img {
+    border-radius: 18px;
+}
+.dealsson-1 , .dealsson-2 {
+    position: relative;
+}
+.dealsson-1 img{
+    margin-bottom: 17px;
+}
+.deals-card{
+    position: absolute;
+    top: 0px;
+    border-radius: 18px;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 49px 72px;
+}
+.deals-card2 {
+    position: absolute;
+    top: 226px;
+    border-radius: 18px;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 47px 84px;
+}
+.deals-card h3 , .deals-card2 h3{
+    color: rgba(255, 255, 255, 1);
+    font-family: Noto Serif;
+    font-size: 20px;
+    font-weight: 700;
+}
+.deals-card p , .deals-card2 p{
+    color: rgba(255, 255, 255, 1);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: underline;
+}
+.deals-card3 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 18px;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 115px 168px;
+}
+.deals-card3 h3{
+    color: rgba(255, 255, 255, 1);
+    font-family: Noto Serif;
+    font-size: 40px;
+    font-weight: 700;
+}
+.deals-card3 p{
+    color: rgba(255, 255, 255, 1);
+    font-family: Inter;
+    font-size: 28px;
+    font-weight: 600;
+    text-decoration: underline;
+}
