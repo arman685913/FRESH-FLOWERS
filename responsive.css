@@ -46,7 +46,7 @@
         margin: 0px auto;
     }
     .cardimg {
-        width: 90%;
+        width: 92%;
         margin: 0px auto;
     }
     .cardimg img{
@@ -65,5 +65,10 @@
     .card-container h3{
         font-size: 20px;
         margin-bottom: 10px;
+    }
+}
+@media screen and (max-width: 360px) {
+    .cardimg {
+        width: 87%
     }
 }
