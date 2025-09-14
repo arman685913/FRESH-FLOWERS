@@ -141,7 +141,27 @@
         left: 20px;
         padding: 37px 82px;
     }
+
+    /* <!-- Subscribe part--> */
+
+    .subs h1 {
+        padding: 100px 0px 14px 0px;
+        font-size: 20px;
+    }
+    #email{
+        padding: 8px 20px;
+        width: 160px;
+        height: 40px;
+    }
+    .subs-btn{
+        padding: 20px 32px;
+    }
+    .email-container{
+    padding-bottom: 65px;
+    }
 }
+
+
 
 
 

@@ -6,8 +6,6 @@
 
 body {
     background: rgba(245, 248, 255, 1);
-    max-width: 1140px;
-    margin: 0px auto;
 }
 /* <!-- navbar --> */
 
@@ -16,6 +14,9 @@ nav{
     justify-content: space-between;
     align-items: center;
     margin-bottom: 120px;
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .navson1-parent{
     display: flex;
@@ -57,6 +58,9 @@ nav{
     justify-content: space-between;
     align-items: end;
     margin-bottom: 120px;
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .banner1-son h1 {
     font-family: Noto Serif;
@@ -79,6 +83,9 @@ nav{
 .card-parent{
     text-align: center;
     margin-bottom: 200px;
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .card-parent h1{
     font-family: Noto Serif;
@@ -130,6 +137,9 @@ nav{
     display: flex;
     gap: 20px 60px;
     margin-bottom: 130px;
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .about-container h1 {
     font-family: Noto Serif;
@@ -161,6 +171,9 @@ nav{
 .deals{
     text-align: center;
     margin-bottom: 120px;
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .deals span {
     color: #E95A08;
@@ -241,4 +254,47 @@ nav{
     font-size: 28px;
     font-weight: 600;
     text-decoration: underline;
+}
+
+/* <!-- Subscribe part--> */
+
+.subs{
+    max-width: 100%;
+    background-image: url(assets/news-letter-bg.png);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+.subs h1 {
+    padding: 200px 0px 20px 0px;
+    color: rgba(255, 255, 255, 1);
+    font-family: Noto Serif;
+    font-size: 50px;
+    font-weight: 700;
+}
+.email-container{
+    padding-bottom: 190px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+#email{
+    padding: 8px 20px;
+    width: 650px;
+    border: none;
+    height: 50px;
+}
+.subs-btn{
+    color: rgba(255, 255, 255, 1);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    background: rgba(233, 90, 8, 1);
+    padding: 24px 50px;
+    border: none;
+}
+footer{
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
 }
