@@ -45,14 +45,23 @@
         width: 182px;
         margin: 0px auto;
     }
-    .card-container img {
+    .cardimg {
+        width: 95%;
+    }
+    .cardimg img{
         width: 100%;
     }
     .btn-card{
-        padding: 20px 30px;
+        padding: 16px 30px;
         margin-bottom: 16px;
     }
     .card-container h4{
         margin-bottom: -15px;
+        margin-top: 10px;
+        font-size: 18px;
+    }
+    .card-container h3{
+        font-size: 20px;
+        margin-bottom: 10px;
     }
 }
