@@ -71,4 +71,8 @@
     .cardimg {
         width: 87%;
     }
+    .card-container{
+        width: 170px;
+        margin: 0px auto;
+    }
 }
