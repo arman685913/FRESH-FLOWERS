@@ -27,8 +27,8 @@
         padding-right: 10px;
     }
     /* <!-- card part--> */
-    .card-parent > p {
-        padding: 0px 28px;
+    .card-parent {
+        
         margin-bottom: 40px;
     }
     .card-parent h1{
@@ -37,6 +37,7 @@
     }
     .card-parent > p{
         margin: 10px auto;
+        padding: 0px 28px;
     }
     .card{
         grid-template-columns: repeat(2, 1fr);
@@ -66,7 +67,69 @@
         font-size: 20px;
         margin-bottom: 10px;
     }
+
+    /* <!-- About part--> */
+
+    .badge{
+        display: none;
+    }
+    .about-container{
+        flex-direction: column;
+        margin-bottom: 130px;
+    }
+    .about-container h1{
+        font-size: 24px;
+        margin: 0px auto;
+        padding: 0px 10px;
+        margin-bottom: 16px;
+    }
+    .aboutimg{
+        width: 355px;
+        margin: 0px auto;
+    }
+    .aboutimg img{
+        width: 100%;
+    }
+    .about-container li{
+        font-size: 14px;
+        margin-bottom: 16px;
+    }
+
+    /* <!-- Deals part--> */
+
+    
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (max-width: 360px) {
     .cardimg {
         width: 87%;
