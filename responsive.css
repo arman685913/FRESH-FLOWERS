@@ -46,14 +46,14 @@
         margin: 0px auto;
     }
     .cardimg {
-        width: 92%;
+        width: 90%;
         margin: 0px auto;
     }
     .cardimg img{
         width: 100%;
     }
     .btn-card{
-        padding: 16px 30px;
+        padding: 16px 20px;
         margin-bottom: 16px;
     }
     .card-container h4{
