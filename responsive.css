@@ -1,0 +1,28 @@
+@media screen and (max-width: 40rem) {
+    body {
+        margin: 0px auto;
+    }
+    /* <!-- navber --> */
+    .navson1-parent{
+        display: none;
+    }
+    nav{
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-bottom: 26px;
+    }
+    /* <!-- banner 1--> */
+    .banner1-continer{
+        flex-direction: column-reverse;
+    }
+    .banner1-son h1 {
+        font-size: 24px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .banner1-son p {
+        font-size: 14px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}

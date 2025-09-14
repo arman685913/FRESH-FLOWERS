@@ -1,1 +1,74 @@
- 
+/* google font */
+/* font-family: "Noto Serif"; */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+/* font-family: "Inter"; */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body {
+    background: rgba(245, 248, 255, 1);
+    max-width: 1140px;
+    margin: 0px auto;
+}
+/* <!-- navbar --> */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 120px;
+}
+.navson1-parent{
+    display: flex;
+    gap: 48px;
+}
+.navson-container{
+    margin-top: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 48px;
+}
+.navimg-container{
+    margin-top: 24px;
+}
+.navson2-parent{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.son-1{
+    color: rgba(37, 36, 50, 1);
+    font-family: Inter;
+    font-weight: 700;
+}
+.son-2 , .son-3 {
+    color: rgba(137, 135, 161, 1);
+    font-family: Inter;
+}
+.navson2-parent p {
+    font-family: Inter;
+    color: rgba(0, 0, 0, 1);
+}
+
+/* <!-- banner 1--> */
+
+.banner1-continer{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+.banner1-son h1 {
+    font-family: Noto Serif;
+    font-size: 65px;
+    font-weight: 700;
+    color: rgba(233, 90, 8, 1);
+    margin-bottom: 13px;
+}
+.banner1-son span {
+    color: black;
+}
+.banner1-son p {
+    color: rgba(0, 0, 0, 0.5);
+    font-family: Inter;
+    font-size: 22px;
+}
