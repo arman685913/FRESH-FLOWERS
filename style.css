@@ -293,8 +293,26 @@ nav{
     padding: 24px 50px;
     border: none;
 }
+/* footer */
 footer{
     max-width: 1140px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.footerson1 p {
+    color: rgba(0, 0, 0, 0.5);
+    font-family: Inter;
+    font-size: 22px;
+    margin-top: 16px;
+}
+.footerson2 p , .footerson3 p {
+    color: var(--Gray-500, rgba(107, 114, 128, 1));
+    font-family: Inter;
+}
+.footerson4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
 }
